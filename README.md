@@ -11,6 +11,8 @@ sklearn
 optuna
 ## 数据集
 我从各期刊出版社中批量货期了2万余科学文献，切分成段落，按是否含合成信息进行手动标志，数据集已上传至github，文本长度在50到3900token之间，中位数为334。一共2个类别，类别之间比例为1：9。
+final_dataset是最初的数据集，dataset_v2是高质量知识补充后的数据集
+
 
 ## 预训练模型：
 bert-base、sentence-bert、deberta-v3和matscibert、chembert、scibert
@@ -18,3 +20,4 @@ bert-base、sentence-bert、deberta-v3和matscibert、chembert、scibert
 ## 效果
 
 模型|macro-f1|lightmlp的效果比cnn，rnn，dpcnn等好
+训练过程中发现增加高质量知识补充任务的模型收敛所需迭代次数减少一半
