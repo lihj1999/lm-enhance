@@ -19,7 +19,15 @@ final_dataset是最初的数据集，dataset_v2是高质量知识补充后的数
 
 
 ## 预训练模型：
-bert-base、sentence-bert、deberta-v3和matscibert、chembert、scibert
+bert-base、sentence-bert、deberta-v3和matscibert、chembert、scibert，其中deberta-v3的训练方法略有不同
+
+## 超参数设置：
+学习率	1.5e-5/5e-5
+批次大小	32
+迭代次数	5
+学习率预热(Warm up)	0.1
+最大输入序列长度	350
+
 
 ## 效果
 
