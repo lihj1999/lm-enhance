@@ -4,13 +4,13 @@
 
 
 ## 环境
-python 3.9
-pytorch 1.10.1  
-tqdm  
-sklearn  
-optuna
-transformers
-ast
+python 3.9，
+pytorch 1.10.1，  
+tqdm，  
+sklearn，  
+optuna，
+transformers，
+ast，
 regex
 
 ## 数据集
